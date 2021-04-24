@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 7000px;
+}
+
+
+
+.content {
+    width: 100%;
+    height: 7000px;
+    background-color: grey;
+    padding-top: 50px;
+}
+
+/* .information-list {
+    width: 100%;
+    height: 7000px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+} */
+
+.information-container-card {
+    width: 270px;
+    background-color: rgba(24, 16, 16, 0.555);
+    height: 450px;
+}
+
+.information-avatar {
+    width: 100%;
+    height: 310px;
+    background-image: url("https://dummyimage.com/250x300.png/ff4444/ffffff");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+
+
+.name {
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.gender {
+    width: 50%;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: blue;
+}
+
+.contact{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    
+}
+.country{
+    height: 20px;
+    background-color: green;
+    color: white; 
+    font-size: 16px;
+    margin-left: 10px;
+    
+}
+.phone{
+    height: 20px;
+    background-color: blue;
+    color: white; 
+    font-size: 16px;
+    margin-left: 10px; 
+}
